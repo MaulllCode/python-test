@@ -1,10 +1,12 @@
-hari = "jumat"
-upacara = 0
-produktif = 0
+hari = "senin"
+upacara = 10
+produktif = 10
 if(hari == "senin"):
-    if(upacara == 1):
+    if(upacara == 1 and produktif == 1):
+        print("Senin = Abu-abu Putih dan almamater dan katelpak")
+    elif(upacara == 1):
         print("Senin = Abu-abu Putih dan almamater")
-    if(produktif == 1):
+    elif(produktif == 1):
         print("Senin = Abu-abu Putih dan katelpak")
     else:
         print("Senin = Abu-abu Putih")
