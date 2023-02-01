@@ -4,6 +4,7 @@ animals = ["Ayam", "Bebek", "Cicak"]
 # semisal kita ingin mengakses item "Bebek" (urutan kedua), maka kita bisa menggunakan indexing "1"
 # kenapa tidak menggunakan indexing "2"? karena indexing dimulai dari angka 0, bukan 1 (n - 1)
 print(animals[0]) # Bebek
+print(animals[1]) # Bebek
 # Jika kita ingin mengakses dengan urutan sebaliknya (dari urutan paling akhir),
 # kita bisa menggunakan negative indexing
 # Jika kita menggunakan indexing "-1", artinya kita mengakses item terakhir
